@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen bg-[#FAFAFA]">
+    <!--Left Column-->
+    <div class="w-screen h-screen flex">
+      <div
+        class="bg-[#FFFFFF] w-[20%] border-r-[1px] border-slate-300 hidden md:inline"
+      >
+        <div class="pl-6 my-8 sticky top-0">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
+            class="w-28"
+          />
+        </div>
+        <div class="sticky">
+          <ul class="pl-6">
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+              <span class="spanclass">Home</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+
+              <span class="spanclass">Search</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+              <span class="spanclass">Explore</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" />
+                <line x1="7" y1="2" x2="7" y2="22" />
+                <line x1="17" y1="2" x2="17" y2="22" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <line x1="2" y1="7" x2="7" y2="7" />
+                <line x1="2" y1="17" x2="7" y2="17" />
+                <line x1="17" y1="17" x2="22" y2="17" />
+                <line x1="17" y1="7" x2="22" y2="7" />
+              </svg>
+
+              <span class="spanclass">Reels</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+
+              <span class="spanclass">Messeages</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                />
+              </svg>
+
+              <span class="spanclass">Notifications</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <line x1="12" y1="8" x2="12" y2="16" />
+                <line x1="8" y1="12" x2="16" y2="12" />
+              </svg>
+
+              <span class="spanclass">Create</span>
+            </li>
+            <li class="liclass">
+              <img
+                src="https://i.pinimg.com/originals/e9/76/b8/e976b899906a6b2a7738efa761c88ed6.jpg"
+                class="w-8 rounded-full mr-3"
+              />
+              <span class="spanclass">Profile</span>
+            </li>
+            <li class="liclass">
+              <svg
+                class="svgclass"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+
+              <span class="spanclass">More</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--whole Right Column-->
+      <div
+        class="bg-[#FAFAFA] max-h-screen w-screen md:w-[80%] flex flex-col items-center justify-center"
+      >
+        <!--header for phone screen , hidden in large screen-->
+        <div
+          class="h-[10%] bg-[#FFFFFF] w-screen flex justify-between mt-14 items-center md:hidden"
+        >
+          <div class="">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
+              class="w-28 m-5"
+            />
+          </div>
+          <div class="relative">
+            <div class="absolute top-2 pl-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 text-slate-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </div>
+            <input
+              class="h-9 w-60 bg-[#FAFAFA] rounded-md border-slate-400 cursor-text pl-8"
+              type="text"
+              placeholder="Search"
+            />
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8 m-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- whole screen right column -->
+        <div class="flex justify-center w-[90%] md:w-screen">
+          <!--stories and post-->
+          <div class="w-[97%] h-screen md:w-[36%] md:mt-8 bg-[#FAFAFA] mr-5">
+            <!--stories-->
+            <div
+              class="bg-white flex cursor-pointer rounded-lg space-x-4 h-[20%] my-4 pl-2 md:pl-8 items-center overflow-x-scroll scrollbar-hide border-[1px] border-slate-300"
+            >
+              <div class="flex flex-col">
+                <img
+                  src="https://i.pinimg.com/originals/aa/1e/35/aa1e352e4003cfd27608b4b49c06b3b0.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">nct</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://i.pinimg.com/550x/57/0f/ea/570feac56f375d3d019c597482f95a26.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">wayvofficial</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://www.allkpop.com/upload/2022/11/content/171107/1668701253-image.png"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">nctdream</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1611134645743288323/Tm8Qcq8d_400x400.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">nct127</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/FemSDmMagAA_vKm?format=jpg&name=medium"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">onyourm_ark</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://d1fdloi71mui9q.cloudfront.net/LpUj9joNQT1JRzDS6pkn_RZTwD2L2BTjddljC"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">yuu_taa_1026</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://d1fdloi71mui9q.cloudfront.net/csncDWzuQ6eNGMCxs9IO_FDAbVP7VgAERSC3.jpg"
+                  class="w-[60px] h-[60px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">johnnyjsuh</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/FFDnLH7XMBE-XI1.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">mo_on_air</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/E9aNQHCX0AEFV2P.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">taeoxo_nct</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/ESQYr1nXkAA-V_K.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">_jeongjaehyun</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://6.viki.io/image/3bd33e1e237a4b1b8837946059d17053/dummy.jpeg?s=900x600&e=t"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">sugaringcandy</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/FMRgt7QacAA1wbk.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">do0_nct</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/E1EuN9PVgAEDNaR?format=jpg&name=large"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">na.jaemin_0813</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://preview.redd.it/rlu5opzyx5771.jpg?width=640&crop=smart&auto=webp&s=ad27c9d5dee98f778f6384bac61c0e4b271d9b26"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">yellow_3to3</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1529119253978308609/1iHKmBss_400x400.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">kh1000le</p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://pbs.twimg.com/media/EJsUXeyUwAA94LR.jpg"
+                  class="w-[60px] h-[55px] p-[1.5px] border-2 border-[#E4405F] rounded-full"
+                />
+                <p class="text-xs text-center truncate w-14">tenlee_1001</p>
+              </div>
+            </div>
+            <div class="bg-[#FFFFFF] border-slate-300 rounded-lg border-[1px]">
+              <!--profile,name-->
+              <div class="h-14 flex justify-between items-center">
+                <div class="flex items-center p-5 cursor-pointer">
+                  <img
+                    src="https://preview.redd.it/rlu5opzyx5771.jpg?width=640&crop=smart&auto=webp&s=ad27c9d5dee98f778f6384bac61c0e4b271d9b26"
+                    class="w-10 h-10 rounded-full mr-2 border-2 border-[#E4405F] p-[1.5px]"
+                  />
+                  <p class="font-semibold hover:text-slate-400">yellow_3to3</p>
+                </div>
+                <div class="cursor-pointer mr-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!--post img-->
+              <div>
+                <img
+                  src="https://i.pinimg.com/736x/9b/20/f3/9b20f3e1e288753be486b4bf5f503d9a.jpg"
+                />
+              </div>
+              <!--love,comment,save-->
+              <div class="flex justify-between my-2 pl-2">
+                <div class="flex space-x-2 cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 hover:text-slate-400"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 hover:text-slate-400"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 hover:text-slate-400"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                    />
+                  </svg>
+                </div>
+                <div class="cursor-pointer pr-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 hover:text-slate-400"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!--like and total comments-->
+              <div>
+                <div>
+                  <img src="" class="" />
+                  <img src="" class="" />
+                  <img src="" class="" />
+                </div>
+                <p class="cursor-pointer">
+                  Liked by tresier_mm and 1,841,841 others
+                </p>
+              </div>
+              <div class="">
+                <span class="font-semibold cursor-pointer mb-2"
+                  >yellow_3to3</span
+                >
+                <span class="cursor-text">🐬🐬</span>
+
+                <p class="font-semibold text-slate-400 cursor-pointer">
+                  view all 50345 comments
+                </p>
+                <p class="font-thin text-black text-sm cursor-pointer pb-2">
+                  8 hours ago
+                </p>
+              </div>
+              <!--add comment-->
+              <div
+                class="flex justify-between items-center px-2 border-t-[1px] border-slate-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 cursor-pointer"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"
+                  />
+                </svg>
+
+                <input
+                  type="text"
+                  placeholder="Add a comment ..."
+                  class="border-none flex-1 focus:ring-0"
+                />
+                <button class="text-blue-300 cursor-pointer font-semibold">
+                  Post
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="mt-[70px] ml-8 w-[30%] h-screen hidden md:inline">
+            <!--profile-->
+            <div class="flex justify-between items-center py-5 h-[10%]">
+              <div class="mr-3">
+                <img
+                  src="https://i.pinimg.com/originals/e9/76/b8/e976b899906a6b2a7738efa761c88ed6.jpg"
+                  class="h-12 w-12 rounded-full"
+                />
+              </div>
+              <div class="flex flex-col flex-1">
+                <span class="font-semibold cursor-pointer">shosta_2</span>
+                <span class="font-normal cursor-text text-slate-400"
+                  >make a wish</span
+                >
+              </div>
+              <button
+                class="text-blue-500 font-semibold text-sm pr-3 hover:text-slate-800"
+              >
+                Switch
+              </button>
+            </div>
+            <!--Suggestion-->
+            <div class="flex justify-between">
+              <p class="text-slate-400 font-sanserif">Suggestions for you</p>
+              <button
+                class="font-semibold text-sm mr-3 text-slate-800 hover:text-slate-400"
+              >
+                See All
+              </button>
+            </div>
+            <div class="flex justify-between items-center h-[10%]">
+              <div class="mr-3">
+                <img
+                  src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg"
+                  class="h-8 w-8 rounded-full"
+                />
+              </div>
+              <div class="flex flex-col flex-1">
+                <span class="font-semibold cursor-pointer text-sm"
+                  >instagram</span
+                >
+                <span class="font-thin text-[12px] cursor-text text-slate-400"
+                  >instagram official account</span
+                >
+              </div>
+              <button
+                class="text-blue-500 font-semibold text-sm pr-3 hover:text-slate-800"
+              >
+                Follow
+              </button>
+            </div>
+            <div class="flex justify-between items-center h-[10%]">
+              <div class="mr-3">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1148230318911963136/QO3WaOWg_400x400.jpg"
+                  class="h-8 w-8 rounded-full"
+                />
+              </div>
+              <div class="flex flex-col flex-1">
+                <span class="font-semibold cursor-pointer text-sm"
+                  >krisjenner</span
+                >
+                <span class="font-thin text-[12px] cursor-text text-slate-400"
+                  >instagram recommended</span
+                >
+              </div>
+              <button
+                class="text-blue-500 font-semibold text-sm pr-3 hover:text-slate-800"
+              >
+                Follow
+              </button>
+            </div>
+            <div class="flex justify-between items-center h-[10%]">
+              <div class="mr-3">
+                <img
+                  src="https://pbs.twimg.com/profile_images/852641381185052672/XZdhIU0J_400x400.jpg"
+                  class="h-8 w-8 rounded-full"
+                />
+              </div>
+              <div class="flex flex-col flex-1">
+                <span class="font-semibold cursor-pointer text-sm"
+                  >gal_gadot</span
+                >
+                <span class="font-thin text-[12px] cursor-text text-slate-400"
+                  >instagram recommended</span
+                >
+              </div>
+              <button
+                class="text-blue-500 font-semibold text-sm pr-3 hover:text-slate-800"
+              >
+                Follow
+              </button>
+            </div>
+            <!--Copyrights-->
+            <div>
+              <div class="flex items-center space-x-3 mt-10">
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >About</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Help</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Press</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >API</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Jobs</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Privacy</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Terms</span
+                >
+
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400 hover:underline"
+                  >Location</span
+                >
+              </div>
+              <div>
+                <span
+                  class="cursor-pointer font-mono text-[12px] text-slate-400"
+                  >Language</span
+                >
+              </div>
+              <div class="mt-10">
+                <p class="text-slate-400 text-xs">© 2023 INSTAGRAM FROM META</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Left stories & Feed-->
+    <!--Right Profile and Data-->
+  </body>
+</html>
